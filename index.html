@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        .home {
+            background: linear-gradient(120deg, rgba(109, 13, 138, 0.4), rgba(20, 20, 200, .4)), url(./Assets/bg.png);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .play {
+            background: linear-gradient(120deg, rgba(109, 13, 138, 0.4), rgba(20, 20, 200, .4)), url(./Assets/Group\ 6.png);
+            background-size: cover;
+            background-attachment: local;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .news-letter {
+            background: url(./Assets/map.png);
+            background-size: cover;
+            background-attachment: local;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .contact {
+            background: linear-gradient(to right, rgba(109, 13, 138, 0.4), rgba(20, 20, 200, .4));
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- home page-->
+    <div class="home" id="home">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top ">
+            <a class="navbar-brand" href="#"><img src="./Assets/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto ml-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">FEATURES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#case-study">CASE STUDY</a>
+                    </li>
+                </ul>
+
+                <a href="#shop"> <button class="btn btn-outline-primary text-white my-2 my-sm-0 mt-2 mt-md-0" type="submit"><i class="fa fa-search">SHOP</i></button></a>
+
+            </div>
+        </nav>
+        <div class="intro-text text-center row container-fluid">
+            <div class="text col-sm-7">
+
+                <h1 class="lead ">The future of <strong>virtual</strong> reality experiences</h1>
+                <span>The new era of technology</span> <br>
+                <a href="#order-now" class="order-now"><button>ORDER NOW</button> </a>
+                <div class="social">
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                </div>
+            </div>
+
+            <div class="home-img col-sm-5 mb-auto">
+                <img class="vr-illustration" src="./Assets/vr illustration.png" alt="illustration">
+            </div>
+        </div>
+        <div class="wave">
+            <img src="./Assets/Path 4.png" alt="img" class="image-fluid">
+        </div>
+
+    </div>
+    <!--Features-->
+
+    <div class="features container-fluid " id="features">
+        <h3 class="text-center">Features</h3>
+        <h1 class="line text-center"></h1>
+        <div class="description row">
+            <div class="one col-sm-4">
+                <h1 class="square">
+                    <p class="inner-square"></p>
+                </h1>
+                <h3 class="text-center">Camera Resolution</h3>
+                <p>Type some text that relates to the above unrelated heading you just typed now to make it look good.</p>
+            </div>
+            <div class="one col-sm-4">
+                <h1 class="square">
+                    <p class="inner-square"></p>
+                </h1>
+                <h3 class="text-center">Camera Resolution</h3>
+                <p>Type some text that relates to the above unrelated heading you just typed now to make it look good.
+                </p>
+            </div>
+            <div class="one col-sm-4">
+                <h1 class="square">
+                    <p class="inner-square"></p>
+                </h1>
+                <h3 class="text-center">Camera Resolution</h3>
+                <p>Type some text that relates to the above unrelated heading you just typed now to make it look good.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid w-100 h-100">
+        <!--About the product-->
+        <div class="about-product row">
+            <div class="about-img col-sm-7 col-12">
+                <img src="./Assets/helmet01.png" alt="" class="image-fluid">
+            </div>
+            <div class="about-text col-12 col-sm-5 ">
+                <h3>About the product</h3>
+                <h1 class="line2"></h1>
+                <div class="diminish">
+                    <h3>
+                        Awesome Digital Product Can Make Your Life Easier
+                    </h3>
+                    <p class="first-para">
+                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
+                    </p>
+                    <p class="second-para">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.Donec nec justo eget felis facilisis
+                    </p>
+                    <ul class="check-list">
+                        <li><i class="fa fa-check"></i> Noise Cancelling without distractions.</li>
+                        <li><i class="fa fa-check"></i> Wireless freedom with BLUETOOTH</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--Play section-->
+        <div class="play">
+            <div class="container-fluid">
+                <img src="./Assets/play.png" alt="play" class="image-fluid">
+
+                <div class="heading-text">
+                    <h1 class="head">Best Product For You. Check The Demo Video.</h1>
+                    <h1 class="line"></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.Donec nec justo eget felis facilisis fermentum.</p>
+                </div>
+            </div>
+        </div>
+        <!--More content-->
+        <div class="more row container-fluid">
+            <div class="info col-sm-5">
+                <h2>Virtual Reality taken to the next level</h2>
+                <p>Just get the code and sit tight, you'll witness its power and performance in lead conversion. Powerful and productive technology. Experience, then believe</p>
+                <button class="read-more">Read More...</button>
+            </div>
+            <div class="more-img col-sm-7">
+                <img class="image-fluid image" src="./Assets/helmet02.png" alt="">
+            </div>
+        </div>
+        <!--Latest products-->
+        <div class="latest-product row my-5" id="order-now">
+            <div class="col-12 text-center"><br><br>
+                <h3>LATEST PRODUCTS</h3>
+                <h2 class="line"></h2>
+                <br>
+                <br>
+            </div>
+            <div class="first col-sm-6">
+                <div class="row">
+                    <div class="image col-sm-6 p-5">
+                        <img src="./Assets/helmet03.png" alt="" class="image">
+                        <h5> <i class="fa fa-lock"></i> Amazon</h5>
+                    </div>
+                    <div class="price-info col-sm-6 p-5">
+                        <h2>Ocula base 7'</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque.</p>
+                        <ul>
+                            <li> <i class="fa fa-check"></i> Water Resistance</li>
+                            <li><i class="fa fa-check"></i>1 year guarantee</li>
+                        </ul>
+                        <h4 class="price p-2">Gh₵ 12,000</h4>
+                        <button class="read-more buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="second col-sm-6" id="shop">
+                <div class="row">
+                    <div class="image col-sm-6 p-5">
+                        <img src="./Assets/helmet01.png" alt="" class="image">
+                        <h5><i class="fa fa-lock"></i> Alibaba</h5>
+                    </div>
+                    <div class="price-info col-sm-6 p-5">
+                        <h2>Mili 0 cap 5</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque.</p>
+                        <ul>
+                            <li><i class="fa fa-check"></i>Water Resistance</li>
+                            <li><i class="fa fa-check"></i>1 year guarantee</li>
+                        </ul>
+                        <h4 class="price p-2">Gh₵ 12,000</h4>
+                        <button class="read-more buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="dots">
+            <h1 class="dot"></h1>
+            <h1 class="cylinder"></h1>
+            <h1 class="dot"></h1>
+        </div>
+        <!--Tech specs-->
+        <div class="tech-specs" id="case-study">
+            <h3 class="text-center mt-5">TECH SPECS</h3>
+            <h1 class="line mb-2"></h1>
+            <p class="text-center  ml-5">Need more info? Please have a look at the tech specs of the headset. We’ve used Latest technology & quality materials</p>
+            <div class="container-fluid p-5 row">
+                <div class="col-4 p-3">
+                    <h4 class="text-center">Compatibility</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque.</p>
+                </div>
+                <div class="col-4 p-3">
+                    <h4 class="text-center">Battery power</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque.</p>
+                </div>
+                <div class="col-4 p-3">
+                    <h4 class="text-center">Activity tracking</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque.</p>
+                </div>
+            </div>
+        </div>
+        <!--Reviews-->
+        <div class="reviews p-5">
+            <h3 class="text-center">REVIEWS</h3>
+            <h1 class="line"></h1>
+            <div class="testimonials d-flex flex-wrap flex-md-nowrap">
+                <div class=" test2 text-center p-3 m-5">
+                    <h1 class="text-center "><i class="fa fa-quote-right"></i></h1>
+                    <p>Leggings occaecat cr Ad vegan excepteur butcher vice lomo. aft beer raw denim aesthetic synth accusamus</p>
+                    <figure><img src="./Assets/testimonials/testimonials-3.jpg" alt="" class="image-fluid mx-1 testimonial-img">
+                        <figcaption>Stephan Salvatore</figcaption>
+                    </figure>
+                </div>
+                <div class=" test2 text-center p-3 m-5">
+                    <h1 class="text-center"><i class="fa fa-quote-right"></i></h1>
+                    <p>Leggings occaecat cr Ad vegan excepteur butcher vice lomo. aft beer raw denim aesthetic synth accusamus
+                    </p>
+                    <figure> <img src="./Assets/testimonials/testimonials-4.jpg" alt="" class="image-fluid testimonial-img">
+                        <figcaption>Klaus Mikaelson</figcaption>
+                    </figure>
+                </div>
+                <div class=" test2 text-center p-3 m-5">
+                    <h1 class="text-center"><i class="fa fa-quote-right"></i></h1>
+                    <p>Leggings occaecat cr Ad vegan excepteur butcher vice lomo. aft beer raw denim aesthetic synth accusamus
+                    </p>
+                    <figure> <img src="./Assets/testimonials/testimonials-5.jpg" alt="" class="image-fluid testimonial-img">
+                        <figcaption>Bonnie Bennet</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FAQS-->
+    <div class="faqs container">
+        <h3>FAQ</h3>
+        <h1 class="faq-line"></h1>
+        <div class="faq row">
+            <div class="faq1 col-sm-6">
+                <!--more styling to do-->
+                <ul>
+                    <li> <i class="fa fa-plus-circle px-3"></i> How can I install this?</li>
+                    <li><i class="fa fa-plus-circle px-3"></i>How to buy the product?</li>
+                    <li><i class="fa fa-plus-circle px-3"></i>Lorem ipsum dolar sit amer?</li>
+                    <li><i class="fa fa-plus-circle px-3"></i>Collar bone go kill yourself?</li>
+                </ul>
+            </div>
+            <div class="faq2 col-sm-6">
+                <h4>How to buy the product?</h4>
+                <p>craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                    sustainable VHS.</p>
+            </div>
+        </div>
+    </div>
+    <section class="text-center">
+        <div class="news-letter pt-5 mt-5">
+            <h4>NEWSLETTER</h4>
+            <h2 class="line"></h2>
+            <h1 class="p-5">Subscribe To Get Updates</h1>
+            <h5>Get weekly updates on products</h5>
+
+            <form class="form p-5">
+                <i class="fa fa-envelope"></i>
+                <input class="w-50 input pl-2" type="email" placeholder="Email Address Here">
+                <input class="submit" type="submit" value="SUBSCRIBE NOW">
+            </form>
+
+        </div>
+    </section>
+    <!--Get in touch-->
+    <div class="get-in-touch container-fluid p-3 h-100vh">
+        <h3 class="text-center">Get In Touch</h3>
+        <h1 class="line"></h1>
+        <div class="git row">
+            <div class="image col-6 pt-3">
+                <img class="image" src="./Assets/helmet04.jpg" alt="">
+            </div>
+            <div class="form-area col-sm-4 p-3">
+                <form class="form mt-5 ">
+
+                    <div class="d-flex"> <input class="mr-3 mb-2  " type="text" placeholder="Name">
+                        <input class=" mb-2" type="number" placeholder="Phone"></div>
+                    <input class="w-100 mb-2" type="email" placeholder="Email">
+                    <input class="w-100 mb-2" type="text" placeholder="Subject">
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Message..."></textarea>
+                    <div class="button text-center mt-3"><button class="submit" type="submit">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--contact-->
+    <div class="container-fluid contact">
+        <div class="row container-fluid">
+            <div class="with-img col-sm-4 mt-5 pt-5">
+                <figure>
+                    <img src="./Assets/logo.png" alt="logo" class="image">
+                    <figcaption>
+                        Cu qui probo malorum saperet. Ne admodum apeirian iracundia usu, eam cu agam ludus, eum munere accusam molestie ut. Alienum percipitur ne est, pri quando iriure ad.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="contact-us col-sm-4 mt-5 pt-5">
+                <h4 class="text-center">Contact Us</h4>
+                <ul>
+                    <li>(+233) 592 914 060</li>
+                    <li>mirekuprince66@gmail.com</li>
+                    <li>Room 6, ked ventures, Kumerica street
+                    </li>
+                </ul>
+            </div>
+            <div class="quick-links col-sm-4 mt-5 pt-5">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Case Study</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+        <img class="image wave" src="./Assets/Path 15.png" alt="">
+
+    </div>
+    <footer class="text-center">
+        <p>&copy; 2030 @Bushido somoto</p>
+    </footer>
+
+
+
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>

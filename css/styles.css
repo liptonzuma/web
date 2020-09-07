@@ -1,0 +1,509 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.home {
+    height: 100vh;
+    overflow: hidden;
+    margin-top: auto;
+    padding-top: 2%;
+    z-index: 10;
+}
+
+.navbar {
+    background: inherit;
+    z-index: 10;
+}
+
+.nav-link {
+    color: #ddd !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.nav-link:hover {
+    border-top: 5px solid #87087a;
+    transition: 300ms ease;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+
+.shop {
+    background: #2d26e9;
+    outline: none;
+    border: none;
+    color: #ddd !important;
+    width: 9em;
+}
+
+.shop:hover {
+    background: linear-gradient(120deg, #2d26e9, #87087a);
+    color: #ddd;
+}
+
+.social {
+    font-size: 1.2rem;
+    margin-top: 15%;
+    z-index: 10;
+}
+
+.social i {
+    background: #000;
+    color: #fff;
+    padding: 1rem;
+    border: 4px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    margin-right: 1rem;
+}
+
+.social i:hover {
+    background: blue !important;
+}
+
+.wave img {
+    width: 100%;
+    z-index: 1;
+}
+
+.wave {
+    position: absolute;
+    bottom: -4.5%;
+}
+
+.lead {
+    font-weight: 650;
+    font-size: 2.5em;
+    color: #ddd;
+    position: relative;
+}
+
+.text {
+    width: 60%;
+    padding-top: 8%;
+    position: relative;
+}
+
+.lead strong {
+    color: black;
+    z-index: 10;
+}
+
+.intro-text span {
+    color: gray;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-now button {
+    width: 11rem;
+    border: none;
+    outline: none;
+    height: 2.8rem;
+    border-radius: 1.6em;
+    margin-top: 10%;
+    font-weight: 600;
+    font-size: large;
+    color: #05051c !important;
+    position: relative;
+    z-index: 10;
+}
+
+.vr-illustration {
+    max-width: 90%;
+}
+
+#features {
+    background: #ddd;
+    padding-top: 10%;
+}
+
+#features .line {
+    width: 2.9rem;
+    background: #87087a;
+    height: 0.3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.square {
+    height: 2em;
+    width: 2em;
+    background: linear-gradient(120deg, #87087a, #2d26e9);
+    margin: 0 auto;
+    transform: rotatez(120deg);
+    margin-bottom: 1em;
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-square {
+    background: #fff;
+    width: .5em;
+    height: .5em;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.about-img img {
+    max-width: 100%;
+}
+
+.about-text {
+    padding: 2.4em;
+}
+
+.about-text h3 {
+    padding-top: 3.4rem;
+}
+
+.about-text .check-list {
+    list-style: none;
+}
+
+.diminish {
+    color: grey;
+}
+
+.line2 {
+    width: 2.9rem;
+    background: #87087a;
+    height: 0.3rem;
+    text-align: center;
+}
+
+.play {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.8rem;
+}
+
+.play .container-fluid {
+    background: #fff;
+    padding: 2.5em;
+    width: 80%;
+    border-radius: 3rem;
+}
+
+.play img {
+    width: 20%;
+    padding: 10px;
+    margin: 1.3rem;
+    cursor: pointer;
+}
+
+.play .head {
+    color: #05051c;
+    line-height: 3.2rem;
+}
+
+.play .line {
+    width: 2.9rem;
+    background: #87087a;
+    height: 0.3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.play p {
+    padding: 2.4rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.image {
+    max-width: 100%;
+}
+
+.more {
+    margin-top: 8%;
+}
+
+.more .info {
+    margin-top: 4.6rem;
+    padding: 2.4em;
+}
+
+.more .info h2 {
+    font-weight: 800;
+    font-size: 2.7rem;
+}
+
+.read-more {
+    width: 10em;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.1rem;
+    background: #2d26e9;
+    color: #fff;
+}
+
+.line {
+    width: 2.9rem;
+    background: #87087a;
+    height: 0.3rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.latest-product ul {
+    list-style: none;
+    text-align: left;
+    margin-left: -2.1em;
+}
+
+.fa-check {
+    color: white !important;
+    margin-right: 1.4em;
+    font-size: 1.4em;
+    text-align: left;
+    background: #fff;
+}
+
+.fa-lock {
+    color: #87087a;
+}
+
+.price {
+    color: #2d26e9;
+}
+
+.buy {
+    font-size: 1.2rem;
+    transition: 300ms ease;
+}
+
+.buy:hover {
+    background: #87087a !important;
+}
+
+.dot {
+    width: 0.3em;
+    height: 0.3em;
+    background: #2d26e9;
+    border-radius: 0.15em
+}
+
+.cylinder {
+    width: 1.1em;
+    height: 0.28em;
+    background: #2d26e9;
+    border-radius: 0.17em;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-specs {
+    background: #ddd;
+    padding: 10% 0%;
+}
+
+.tech-specs h4 {
+    color: #2d26e9;
+    font-size: 1.3em;
+}
+
+.tech-specs p {
+    color: grey;
+}
+
+.reviews {
+    margin: 10% 2%;
+}
+
+.testimonial-img {
+    max-width: 50%;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid rgba(120, 100, 210, 0.6);
+}
+
+figure {
+    margin-bottom: -5.8em;
+}
+
+figcaption {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.test2 {
+    background: #ddd;
+    border-radius: 2rem;
+    box-shadow: 1.5em 1.5em 1.5em grey;
+}
+
+.review h6 {
+    margin-bottom: -3.4em;
+}
+
+.faq-line {
+    width: 2.9rem;
+    background: #87087a;
+    height: 0.3rem;
+    text-align: left;
+}
+
+.faq1 ul {
+    list-style: none;
+}
+
+.faq1 li {
+    background: rgba(120, 100, 210, 0.9);
+    margin-top: 1.1em;
+    height: 2.8em;
+    font-size: 1.2em;
+    transition: 500ms ease;
+    cursor: pointer;
+    color: #05051c;
+}
+
+.faq1 li:hover {
+    background: rgba(168, 17, 173, 0.8);
+    transform: translatex(1em);
+}
+
+.faq1 span {
+    background: #2d26ed;
+    width: 200px;
+    height: 1.2em;
+    margin-left: 1.2rem;
+}
+
+p,
+li {
+    color: gray;
+}
+
+.faq2 p {
+    color: gray;
+}
+
+.input {
+    border-radius: 2.1rem;
+    border: none;
+    background: #fff;
+    height: 3em;
+}
+
+.submit {
+    background: rgba(12, 12, 189, 0.9);
+    color: #fff;
+    width: 10em;
+    height: 2.7em;
+    border-radius: 1.5em;
+    border: none;
+}
+
+.news-letter h5 {
+    color: grey;
+}
+
+.news-letter i {
+    color: rgba(12, 12, 189, 0.7);
+}
+
+.form-area .form input {
+    background: #ddd;
+    border: none;
+    height: 3em;
+    border-radius: 0.6em;
+    padding-left: 1em;
+    width: 100%;
+}
+
+textarea {
+    background: #ddd;
+    border: 0.1px solid #ddd;
+    width: 100%;
+    height: 30%;
+}
+
+.form-area button {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.get-in-touch {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact img {
+    position: relative;
+    z-index: 1;
+    left: -3%;
+}
+
+.contact .with-img {
+    z-index: 2;
+    color: rgba(12, 12, 189, 0.5);
+}
+
+.contact .contact-us,
+.contact-us li {
+    z-index: 3;
+    color: white;
+}
+
+.quick-links a {
+    z-index: 3;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.contact {
+    color: #fff;
+}
+
+footer p {
+    color: rgba(12, 12, 189, 0.6) !important;
+    font-weight: 700;
+    font-size: 1.1em;
+    position: relative;
+    bottom: 0%;
+    background: linear-gradient(120deg, rgba(109, 13, 138, 0.4), rgba(20, 20, 200, .4));
+}
+
+@media only screen and (max-width:569px) {
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .wave {
+        display: none;
+    }
+    .contact figcaption {
+        font-size: 1em;
+    }
+}
